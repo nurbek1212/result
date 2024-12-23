@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+    font-family: sans-serif;
+    list-style: none;
+    
+}
+.box{
+    width: 180vh;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    margin: 0 auto;
+}
+.present{
+    flex-wrap: wrap;
+    width: 400px;
+    height: 180px;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.621);
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 40px;
+}
+.present:hover{
+    background-color: rgba(0, 0, 0, 0.489);
+}
+.present a{
+    color: white;
+}
+.my-text{
+    margin: 50px 0 50px 0;
+    font-size: 25px;
+}
+.home-text{
+    margin: 50px 0 50px 0;
+}
+.fa-brands{
+    width: 300px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 10px;
+    gap: 50px;
+    padding-top: 10px;
+    margin-bottom: 50px;
+    font-family: sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    gap: 10px;
+}
+.fa-brands a{
+    color: black;
+}
+.linked{
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.fa-instagram, .fa-telegram, .fa-facebook{
+    list-style: 30px;
+
+}

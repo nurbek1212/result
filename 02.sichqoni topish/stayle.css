@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.photo1{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    
+}
+.h12{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+.photo4{
+    display: flex;
+    justify-content: space-evenly  ;
+    padding-top: 1% ;
+}
+.photo2{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 1%;
+}
+.photo3{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 1%;
+}
+.back{
+    display: flex;
+    align-items: flex-end;
+    font-size: 30px;
+}
+a{
+    color: black;
+}
