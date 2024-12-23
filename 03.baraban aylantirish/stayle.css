@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.but{
+    position: absolute;
+    width: 600p;
+    height: 600px;
+}
+.strelka{
+    position: absolute;
+    width: 80px;
+    height: 160px;
+    margin-top: 90px;
+}
+.im{
+    display: flex;
+    justify-content: center;
+    transition: trasform 30s ;
+}
+h1{
+    text-align: center;
+    padding: 40px 0 40px 0;
+}
+.back{
+    display: flex;
+    align-items: flex-end;
+    font-size: 30px;
+    margin-top: 550px;
+}
+a{
+    color: black;
+}

@@ -5,6 +5,10 @@
     list-style: none;
     text-decoration: none;
 }
+.photo{
+    width: 800px;
+    margin: 0 auto;
+}
 .photo1{
     display: flex;
     justify-content: center;
@@ -35,6 +39,8 @@
     display: flex;
     align-items: flex-end;
     font-size: 30px;
+    margin-left: -355px;
+    margin-top: 20px;
 }
 a{
     color: black;
