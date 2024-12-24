@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.buton{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+}
+.buton button{
+    width: 50%;
+    height: 10vh;
+    background-color: yellow;
+    font-size: 25px;
+}
+.buton button:hover{
+    background-color: aqua;
+}
+.box{
+    width: 10%;
+    background-color: red;
+    border: 1px solid black;
+    height: 200px;
+}
+.elements{
+    display: flex;
+    /* bir xatorni ikkinch qator */
+    flex-wrap: wrap;
+}
+.inputs{
+    position: fixed;
+    bottom: 10vh;
+    flex-direction: row-reverse;
+}
