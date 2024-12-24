@@ -12,8 +12,7 @@
     margin: 0 auto;
 }
 .h12{
-    display: flex;
-    justify-content: center;
+    text-align: center;
 }
 .photo4{
     display: flex;
