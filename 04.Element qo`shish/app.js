@@ -27,8 +27,6 @@ function add(){
     lastCreatedElement = newElement;
 }
 function remove(){
-    if (lastCreatedElement > 0) {
-        lastCreatedElement.remove(); // Oxirgi yaratilgan elementni DOMdan o'chirish
-        lastCreatedElement = null; // O'zgaruvchini tozalash
-    }
+    let h1 = document.querySelector(".box")
+    h1.remove()
 }
