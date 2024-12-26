@@ -19,7 +19,7 @@
 .im{
     display: flex;
     justify-content: center;
-    transition: trasform 30s ;
+    transition: trasform 1s ;
 }
 h1{
     text-align: center;
