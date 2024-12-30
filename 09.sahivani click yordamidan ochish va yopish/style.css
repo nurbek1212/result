@@ -2,15 +2,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: serif;
+    font-family: sans-serif;
 }
-.HUNGRY{
+.HEDER{
+    height: 100vh;
     background-image: url("img/bear.jpg");
     background-position: center center;
-    height: 100vh;
+    background-size: cover; 
+    /* ramni siljidmaydi */
     transition: 1s;
 }
-
 .heder-bacground{
     height: 100% ;
     background-color: rgba(0, 0, 0, 0.5) ;
@@ -40,7 +41,7 @@
     transform: 1s;
     cursor: pointer;
 }
-.span-onclick{
+.heder-navigation{
     position: absolute;
     bottom: 20px;
     width: 100%;
@@ -49,7 +50,7 @@
     justify-content: center;
     gap: 20px;
 }
-.span-onclick span{
+.heder-navigation span{
     width: 15px;
     height: 15px;
     background-color: #777;

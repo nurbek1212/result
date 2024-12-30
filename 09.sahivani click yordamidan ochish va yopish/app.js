@@ -1,9 +1,10 @@
-let batton1 = document.querySelector('#one')
-let batton2 = document.querySelector('#tow')
-let batton3 = document.querySelector('#three')
-let batton4 = document.querySelector('#four')
+let batton1 = document.querySelector("#batton1")
+let batton2 = document.querySelector("#batton2")
+let batton3 = document.querySelector("#batton3")
+let batton4 = document.querySelector("#batton4")
 
-let header = document.querySelector(".span-onclick")
+
+let header = document.querySelector(".HEDER")
 
 let text1 = document.querySelector(".heder-text h1")
 
@@ -41,4 +42,3 @@ batton4.addEventListener('click', ()=>{
     header.style.backgroundImage = 'url(img/tiger.jpg)'
     text1.textContent = 'Tiger Baer'
 })
-console.log(batton1)
