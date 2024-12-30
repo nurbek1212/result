@@ -28,8 +28,6 @@
     margin-bottom: -100px;
     margin-top: -2px;
     margin-left: -1px;
-    display: flex;
-    flex-direction: column;
 }
 .working{
     width: 882px;
