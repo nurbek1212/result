@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box  ;
+}
+.corusel{
+    width: 800px;
+    height: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    margin: 50px auto;
+    overflow: hidden;
+    /* rasmlarni oraga joylaydi */
+    position: relative;
+}
+.slides{
+    height: 100%;
+    width: 400%;
+    display: flex;
+    transition: 1s;
+    transform: translateX(-75%);
+
+}
+.slid{
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-size: cover;
+}
+.phot-1{
+    background-image: url("img/bear.jpg");
+}
+.phot-2{
+    background-image: url("img/bori.jpg");
+}
+.phot-3{
+    background-image: url("img/lion.jpg");
+}
+.phot-4{
+    background-image: url("img/tiger.jpg");
+}
+.navigation{
+    position: absolute;
+    top: 50%;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.navigation button{
+    padding: 10px 20px;
+    border: none;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.301);
+}
+.navigation button:hover{
+    background-color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+    /* qolga  o`tqazmoq */
+}
+.photo-1{
+    background-image: url("img/bear.jpg");
+}
+.photo-2{
+    background-image: url("img/bori.jpg");
+}
+.photo-3{
+    background-image: url("img/lion.jpg");
+}
+.photo-4{
+    background-image: url("img/tiger.jpg");
+}
+.corse{
+    width: 300px;
+    height: 200px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    margin: 20px auto;
+    overflow: hidden;
+    /* rasmlarni oraga joylaydi */
+    position: relative;
+}
+.slid{
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-size: cover;
+}
+.answer{
+    height: 100%;
+    width: 400%;
+    display: flex;
+    transition: 1s;
+    transform: translateX(-75%);
+}
+        
