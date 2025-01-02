@@ -1,0 +1,30 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contener{
+    width: 80%;
+    margin: 0 auto;
+    background-color: aqua;
+}
+.box{
+    border: 1px solid black;
+    padding: 10px;
+    position: relative;
+    height: 50px;
+    overflow: hidden;
+    /* korinmaydigan qilish */
+    transition: 0.5s;
+}
+.box span{
+    position: absolute;
+    right: 10px;
+    top: 0;
+    font-size: 50px;
+}
+.box p{
+    font-size: 20px;
+    line-height: 30px;
+}
