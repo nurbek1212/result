@@ -1,20 +1,25 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
 }
-.ball-play{
-    width: 700px;
-    height: 500px;
-    border: 3px solid red;
+
+.container {
+    width: 80%;
+    height: 80vh;
+    border: 1px solid red;
+    position: relative;
+    overflow: hidden;
     margin: 0 auto;
 }
-h1{
-    text-align: center;
-    margin: 30px 0 30px 0;
-}
-img{
-    width: 30px;
-    transition: 0.1s;
+
+.ball {
+    width: 50px;
+    height: 50px;
+    background-image: url('img/football.png');
+    background-size: cover;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
