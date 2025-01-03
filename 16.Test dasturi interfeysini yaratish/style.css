@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+}
+.home{
+    display: flex;
+    justify-content: space-between;
+}
+.header{
+    width: 80%;
+    height: 600px;
+    box-shadow: 2px 2px 15px black; 
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px 20px;
+}
+button{
+    width: 50px;
+    height: 50px;
+    margin-top: 4px;
+}
+.text-button{
+    width: 250px;
+    margin-top: 50px;
+    margin-right: 50px;
+}   
+label{
+    display: flex;
+    width: 100px;
+    align-items: center;
+    border: 1px solid black;
+}
+hr{
+    margin-top: 280px;
+    width: 90%;
+    margin-left: 40px;
+    color: aqua;
+}
+.test-variant{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.test-variant label{
+    width: 570px;
+    height: 50px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: rgb(206, 208, 230);
+    margin-top: 20px;
+}
+.test-setting{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.test-setting-button-prev{
+    width: 570px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding-top: 10px;
+    color: white;
+    background-color: darkblue;
+    cursor: pointer;
+}
+.test-setting-button-next{
+    width: 570px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding-top: 10px;
+    color: white;
+    background-color: darkblue;
+    cursor: pointer;
+}
+.test-setting-button-finish{
+    width: 97%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding-top: 10px;
+    background-color: yellow;
+    cursor: pointer;
+    margin: 20px 20px;
+}
