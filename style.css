@@ -9,7 +9,7 @@
     
 }
 .box{
-    width: 180vh;
+    width: 160vh;
     display: flex;
     flex-wrap: wrap;
     gap: 60px;
@@ -17,7 +17,7 @@
 }
 .present{
     flex-wrap: wrap;
-    width: 400px;
+    width: 350px;
     height: 180px;
     border-radius: 15px;
     background-color: rgba(0, 0, 0, 0.621);
