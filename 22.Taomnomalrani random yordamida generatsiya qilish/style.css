@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: serif;
+}
+.list-meal{
+    width: 1450px;
+    height: 70vh;
+}
+table{
+    margin: 0 auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+tr, td,th{
+    border: 1px solid black;
+    width: 200px;
+    height: 10vh;
+} 
+.tr{
+    background-color: forestgreen;
+}
+.td{
+    background-color: white;
+}
+.cook{
+    text-align: center;
+    margin: 30px;
+}
+.hours{
+    background-color: forestgreen;
+}
+.food{
+    background-color: white;
+    color: black;
+}
+.time{
+    background-color: white;
+    color: black;
+}
+.generatsiya{
+    width: 200px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgb(6, 6, 157);
+    font-size: 18px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.button-setting{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
