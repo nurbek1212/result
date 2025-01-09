@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+    font-family: sans-serif;
+}
+.game-display{
+    width: 100%;
+    height: 40vh;
+    background-color: #555;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.last-next{
+    width: 45%;
+    background-color: #777;
+    height: 100px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-size: 50px;
+    font-weight: bold;
+    white-space: pre;
+    overflow: hidden;
+}
+.new-next{
+    width: 45%;
+    background-color: white;
+    height: 100px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 50px;
+    font-weight: bold;
+    white-space: pre;
+    overflow: hidden;
+}
+.keyboards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+    height: 40vh;
+}
+.row{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 50px;
+}
+.row span{
+    width: 100px;
+    height: 70px;
+    background-color: #555;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+.row :hover{
+    transform: translateY(-5px);
+    background-color: #555;
+}
+.kalculator1{
+    width: 50px;
+    height: 50px;
+    background-color:  red;
+    color: white;
+    border-radius: 50%;
+    font-size: 45px;
+    text-align: center; 
+}
+.kalculator2{
+    width: 50px;
+    height: 50px;
+    background-color:  blue;
+    color: white;
+    border-radius: 50%;
+    font-size: 45px;
+    text-align: center; 
+    position: relative;
+}
+.hisob{
+    display: flex;
+    justify-content: start;
+    position: absolute;
+    margin-top: -200px;
+    gap: 50px;
+}
