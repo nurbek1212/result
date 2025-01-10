@@ -61,8 +61,10 @@ cards.forEach((item,index) => {
             },300)
             
             setTimeout(function(){
-                if(firstcard.src  != null && secondcard.src != null){
+                if(firstcard  != null && secondcard != null){
                     if(secondcard.src != firstcard && cnt == 2){
+                    firstcard.src = "img/back.jpg"
+                    secondcard.src = "img/back.jpg"
                         firstcard = null
                         secondcard = null
                         cnt = 0

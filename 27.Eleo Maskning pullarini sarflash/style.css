@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+    font-family: sans-serif;
+}
+body{
+    background-color: aliceblue;
+}
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+.partrait{
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+}
+.partrait p{
+    padding-top: 7px;
+    font-weight: bold;
+}
+.partraet-img{
+    width: 120px;
+    border-radius: 50%;
+}
+.pradact-name{
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.many{
+    height: 70px;
+    text-align: center;
+    background-color: #2ecc71;
+    line-height: 70px;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 10px 0;
+    position: sticky;
+    top: 0;
+    
+}
+.praduct{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 10px;
+}
+.pradact-item{
+    width: 32.5%;
+    background-color: white;
+    text-align: center;
+
+}
+.pradact-imge{
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+}
+.pradact-price{
+    color: #2ecc71;
+    font-weight: bold;
+    padding: 5px;
+}
+.pradact-control{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    column-gap: 5px;
+}
+.sell-button, .buy-button, .count{
+    width: 33%;
+    cursor: pointer;
+    text-align: center;
+    font-weight: 20px;
+    border-radius: 5px;
+}
+.sell-button{
+    border: none;
+}
+.buy-button{
+    background-color: #2ecc71;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
