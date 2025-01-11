@@ -6,7 +6,9 @@
     text-decoration: none;
     font-family: sans-serif;
     list-style: none;
-    color: white;
+}
+li a{
+     color: white !important;
 }
 .box{
     width: 160vh;
@@ -551,7 +553,8 @@ img{
 }
 .my-text{
     margin: 50px 0 50px 0;
-    font-size: 25px;
+    font-size: 20px;
+
 }
 .home-text{
     margin: 50px 0 50px 0;
@@ -575,7 +578,7 @@ img{
 }
 .linked{
     width: 1000px;
-    margin: 0 auto;
+    margin: -35px auto;
     display: flex;
     justify-content: space-between;
     gap: 20px;
@@ -584,4 +587,9 @@ img{
 .fa-instagram, .fa-telegram, .fa-facebook{
     list-style: 30px;
     color: black;
+}
+p{
+    text-align: center;
+    margin-top: -40px;
+    color: rgba(0, 0, 0, 0.536);
 }
