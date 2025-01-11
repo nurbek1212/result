@@ -29,14 +29,11 @@ for (let i = 0; i < suzlar.length; i++) {
     span.textContent = suzlar[i];
     words.appendChild(span);
 }
-
-// Barcha harflarni yig'ish
 let allLetter = [];
 for (let key in word_json) {
     allLetter = allLetter.concat(word_json[key]);
 }
 
-// Harflarni aralashtirish
 for (let i = 0; i < allLetter.length; i++) {
     let rand1 = Math.floor(Math.random() * allLetter.length);
     let rand2 = Math.floor(Math.random() * allLetter.length);
@@ -45,10 +42,7 @@ for (let i = 0; i < allLetter.length; i++) {
     allLetter[rand2] = t;
 }
 
-// Tanlangan harflarni saqlash uchun bo'sh massiv
 let selectedLetters = [];
-
-// Harflarni ekranga chiqarish
 for (let i = 0; i < allLetter.length; i++) {
     let span = document.createElement('span');
     span.classList.add('latter');
@@ -56,29 +50,20 @@ for (let i = 0; i < allLetter.length; i++) {
     game_display.appendChild(span);
 
     span.addEventListener('click', function () {
-        // Harfni belgilash va tanlangan harflarga qo‘shish
         span.style.backgroundColor = 'red';
-        selectedLetters.push({ letter: span.textContent, element: span }); // Harfni va uning elementini qo‘shish
+        selectedLetters.push({ letter: span.textContent, element: span })
     
-        // Tanlangan harflardan yig‘ilgan so‘z
         let currentWord = selectedLetters.map(item => item.letter).join('');
-    
-        // Agar hosil bo‘lgan so‘z `suzlar` ro‘yxatidagi biror so‘zga mos kelsa
         if (suzlar.includes(currentWord)) {
-            // Faqat tanlangan harflarni yashirish
             selectedLetters.forEach(item => {
-                item.element.style.visibility = 'hidden'; // Harfni yashirish
+                item.element.style.visibility = 'hidden'; 
             });
-    
-            // Ustidan chiziq chizish
             let wordElements = document.querySelectorAll('.word');
             wordElements.forEach(word => {
                 if (word.textContent === currentWord) {
-                    word.style.textDecoration = 'line-through'; // Ustidan chiziq chizish
+                    word.style.textDecoration = 'line-through';
                 }
             });
-    
-            // Tanlangan harflarni tozalash
             selectedLetters = [];
         }
     });

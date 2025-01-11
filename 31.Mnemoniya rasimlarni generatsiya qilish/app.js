@@ -139,19 +139,6 @@ let data = [
     { 'img': 'zebra.jpg', 'name': 'Zebra' },
     { 'img': 'zina.png', 'name': 'Zina' }
 ]
-// cnt = 0
-// let emojil = document.querySelector('.emjil12')
-// let tow = document.querySelector('.tow')
-// emojil.addEventListener('click', ()=>{
-//     if (emojil.textContent === '▶️') {
-//         emojil.textContent = '⏸️';
-//         tow.textContent = cnt+=1 
-//     } else {
-//         emojil.textContent = '▶️';
-//     }
-//     setInterval(function{},{})
-// })
-
 for (let i = 0; i<= 200; i++) {
     let rand1 = Math.floor(Math.random() * 1000) % 139
     let rand2 = Math.floor(Math.random() * 1000) % 139
