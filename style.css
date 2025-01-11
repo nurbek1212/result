@@ -10,11 +10,17 @@
 li a{
      color: white !important;
 }
+.box-home{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+}
 .box{
     width: 160vh;
     display: flex;
     flex-wrap: wrap;
-    gap: 60px;
+    gap: 50px;
     margin: 0 auto;
 }
 img{
