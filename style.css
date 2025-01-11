@@ -11,11 +11,11 @@ li a{
      color: white !important;
 }
 .box{
-    width: 143vh;
+    width: 150vh;
     display: flex;
     flex-wrap: wrap;
     gap: 60px;
-    margin: 0 auto;
+    margin: 0 auto
 }
 img{
     background-color: rgba(0, 0, 0, 0.781);
