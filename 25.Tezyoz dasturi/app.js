@@ -17,7 +17,20 @@ window.addEventListener('keypress', (e)=>{
         lasttext.textContent += matn[0]
         matn = matn.slice(1)
         audio1.currentTime = 0
-
+        cnt+=1
+        kalculator2.textContent = `${cnt}`
         audio1.play()
+        if (matn.length === 0) {
+            audio6.play().catch(error => {
+                console.error('Musiqani ijro etishda xatolik:', error);
+            });
+        }
+    }else{
+        com+=1
+        audio2.currentTime = 0
+        audio2.play()
+
+        kalculator1.textContent = `${com}`
     }
+    
 })

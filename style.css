@@ -15,7 +15,9 @@
     gap: 60px;
     margin: 0 auto;
 }
-
+img{
+    background-color: rgba(0, 0, 0, 0.781);
+}
 .present1{
     width: 350px;
     height: 180px;
@@ -336,6 +338,198 @@
     font-weight: bold;
     padding-top: 40px;
 }
+.present21{
+    width: 350px;
+    height: 180px;
+    border-radius: 15px;
+    background-image: url('img/21.png') ;
+    background-size: cover;
+}
+.present21 li{
+    background-color: rgba(0, 0, 0, 0.492);
+    height: 100%;
+    border-radius: 10px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 40px;
+}
+.present22{
+    width: 350px;
+    height: 180px;
+    border-radius: 15px;
+    background-image: url('img/22.jpg') ;
+    background-size: cover;
+}
+.present22 li{
+    background-color: rgba(0, 0, 0, 0.492);
+    height: 100%;
+    border-radius: 10px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 40px;
+}
+.present23{
+    width: 350px;
+    height: 180px;
+    border-radius: 15px;
+    background-image: url('img/23.png') ;
+    background-size: cover;
+}
+.present23 li{
+    background-color: rgba(0, 0, 0, 0.492);
+    height: 100%;
+    border-radius: 10px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 40px;
+}
+.present24{
+    width: 350px;
+    height: 180px;
+    border-radius: 15px;
+    background-image: url('img/24.jpg') ;
+    background-size: cover;
+}
+.present24 li{
+    background-color: rgba(0, 0, 0, 0.492);
+    height: 100%;
+    border-radius: 10px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 40px;
+}
+.present25{
+    width: 350px;
+    height: 180px;
+    border-radius: 15px;
+    background-image: url('img/25.jpg') ;
+    background-size: cover;
+}
+.present25 li{
+    background-color: rgba(0, 0, 0, 0.492);
+    height: 100%;
+    border-radius: 10px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 40px;
+}
+.present26{
+    width: 350px;
+    height: 180px;
+    border-radius: 15px;
+    background-image: url('img/26.png') ;
+    background-size: cover;
+}
+.present26 li{
+    background-color: rgba(0, 0, 0, 0.492);
+    height: 100%;
+    border-radius: 10px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 40px;
+}
+.present27{
+    width: 350px;
+    height: 180px;
+    border-radius: 15px;
+    background-image: url('img/27') ;
+    background-size: cover;
+}
+.present27 li{
+    background-color: rgba(0, 0, 0, 0.492);
+    height: 100%;
+    border-radius: 10px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 40px;
+}
+.present28{
+    width: 350px;
+    height: 180px;
+    border-radius: 15px;
+    background-image: url('img/28.jfif') ;
+    background-size: cover;
+}
+.present28 li{
+    background-color: rgba(0, 0, 0, 0.492);
+    height: 100%;
+    border-radius: 10px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 40px;
+}
+.present29{
+    width: 350px;
+    height: 180px;
+    border-radius: 15px;
+    background-image: url('img/29.jpg') ;
+    background-size: cover;
+}
+.present29 li{
+    background-color: rgba(0, 0, 0, 0.492);
+    height: 100%;
+    border-radius: 10px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 40px;
+}
+.present30{
+    width: 350px;
+    height: 180px;
+    border-radius: 15px;
+    background-image: url('img/30.jpg') ;
+    background-size: cover;
+}
+.present30 li{
+    background-color: rgba(0, 0, 0, 0.492);
+    height: 100%;
+    border-radius: 10px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 40px;
+}
+.present31{
+    width: 350px;
+    height: 180px;
+    border-radius: 15px;
+    background-image: url('img/31') ;
+    background-size: cover;
+}
+.present31 li{
+    background-color: rgba(0, 0, 0, 0.492);
+    height: 100%;
+    border-radius: 10px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 40px;
+}
+.present32{
+    width: 350px;
+    height: 180px;
+    border-radius: 15px;
+    background-image: url('img/32.jpg') ;
+    background-size: cover;
+}
+.present32 li{
+    background-color: rgba(0, 0, 0, 0.492);
+    height: 100%;
+    border-radius: 10px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 40px;
+}
 .present{
     flex-wrap: wrap;
     width: 350px;
@@ -384,10 +578,10 @@
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-
+    gap: 20px;
 
 }
 .fa-instagram, .fa-telegram, .fa-facebook{
     list-style: 30px;
-
+    color: black;
 }
