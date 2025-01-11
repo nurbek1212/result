@@ -10,18 +10,13 @@
 li a{
      color: white !important;
 }
-.box-home{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-left: 45px;
-}
 .box{
     width: 160vh;
     display: flex;
     flex-wrap: wrap;
-    gap: 50px;
+    gap: 60px;
     margin: 0 auto;
+    margin-left: 250px;
 }
 img{
     background-color: rgba(0, 0, 0, 0.781);
