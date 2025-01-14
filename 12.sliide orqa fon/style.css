@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.carusel{
+    width: 800px;
+    height: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5) ;
+    margin: 50px auto;
+    overflow: hidden;
+    position: relative;
+}
+.slides{
+    height: 100%;
+    width: 400%;
+    display: flex;
+    transition: 1s;
+    /* transform: translateX(-25%);
+    transform: translateX(-50%);
+    transform: translateX(-75);
+    transform: translateX(0); */
+
+}
+.slide{
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.photo1{
+    background-image: url("img/bear.jpg");
+}
+
+.photo2{
+    background-image: url("img/bori.jpg");
+}
+.photo3{
+    background-image: url("img/lion.jpg");
+}
+.photo4{
+    background-image: url("img/tiger.jpg");
+}
+.navigation{
+    position: absolute;
+    top: 50%;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.navigation button{
+    padding: 10px 20px;
+    border: none;
+    font-size: 15px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.navigation button:hover{
+    background-color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+    
+}
+.small_carusel{
+    width: 150px;
+    height: 150px;
+    box-shadow: 0 0 60px rgb(0, 0, 0);
+    margin: -100px auto;
+    position: relative;
+    overflow: hidden;
+}
+.small_slides{
+    height: 100%;
+    width: 400%;
+    display: flex;
+    transition: 1s;
+
+}
+.small_slide{
+    width: 120%;
+    height: 100%;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.photo11{
+    background-image: url(img/bear.jpg);
+}
+.photo12{
+    background-image: url(img/bori.jpg);
+}
+.photo13{
+    background-image: url(img/lion.jpg);
+}
+.photo14{
+    background-image: url(img/tiger.jpg);
+}
