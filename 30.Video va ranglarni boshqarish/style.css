@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.video-block{
+    background-color: rgb(80, 183, 183);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    height: 100vh;
+}
+.video{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    margin: 10px;
+}
